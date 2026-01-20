@@ -1,20 +1,33 @@
 {
   "name": "09-digital-clock-react",
-  "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "description": "Glassmorphic digital clock with React, TypeScript, and real-time updates.",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
   },
+  "keywords": [
+    "clock",
+    "digital",
+    "react",
+    "typescript",
+    "glassmorphism"
+  ],
+  "author": "Kazi Musharraf",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-knight23/09-digital-clock-react.git"
+  },
+  "homepage": "https://09-digital-clock-react.vercel.app",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "framer-motion": "^11.5.4",
     "lucide-react": "^0.441.0",
-    "clsx": "^2.1.1",
-    "tailwind-merge": "^2.5.2",
     "moment": "^2.30.1"
   },
   "devDependencies": {
