@@ -113,7 +113,7 @@ function App() {
             <Globe className="w-3 h-3" />
             <span>LOCAL TIMEZONE: {Intl.DateTimeFormat().resolvedOptions().timeZone}</span>
           </div>
-          <p>© 2024 MK-PROJECTS</p>
+          <p>© 2026 Neon Chronos • Modernization Engineering Wave</p>
         </div>
       </motion.div>
     </div>
